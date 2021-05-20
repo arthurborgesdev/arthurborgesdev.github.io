@@ -1,3 +1,19 @@
+.nav-links ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.nav-links li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
 textarea {
   resize: none;
 }
