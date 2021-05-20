@@ -58,7 +58,7 @@ header .description {
 .social-icons {
   color: #f9855b;
   padding-left: 0px;
-  padding-bottom: 25px;
+  padding-bottom: 47px;
 }
 
 .social-icons :first-child {
@@ -69,6 +69,59 @@ header .description {
 .social-icons :not(:first-child) {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 29.48px;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.img-container {
+  margin-top: 45px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left-title {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 37.5px;
+}
+
+.languages span {
+  margin-top: 14px;
+  display: inline-block;
+  padding: 8px 6px 8px 6px;
+  background-color: #423b39;
+  margin-right: 5px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.best-works button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.85px;
+  background-color: #f9855b;
+  color: #fff;
+  margin-top: 17px;
+  width: 100%;
+  border: 0;
+  padding: 11px 20px 10px 20px;
 }
 
 textarea {
