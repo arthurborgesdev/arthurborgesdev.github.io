@@ -55,18 +55,18 @@ header .description {
   color: #525252;
 }
 
-.social-icons {
+.social-icons-header {
   color: #f9855b;
   padding-left: 0px;
   padding-bottom: 47px;
 }
 
-.social-icons :first-child {
+.social-icons-header :first-child {
   padding-left: 0px;
   padding-right: 10px;
 }
 
-.social-icons :not(:first-child) {
+.social-icons-header :not(:first-child) {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -168,6 +168,53 @@ h2 {
   line-height: 34px;
   color: #727274;
   padding-right: 15px;
+}
+
+footer {
+  background-color: #f9855b;
+}
+
+footer h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 29.48px;
+  color: #fff;
+  text-align: center;
+  padding-top: 46px;
+}
+
+footer p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 23px;
+}
+
+.social-icons-footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.line-footer-container {
+  margin: 0 25px;
+}
+
+.line-footer {
+  border-bottom: 1px solid #ffa07d;
+  margin-bottom: 26px;
+  margin-top: 30px;
+  padding: 0 25px;
+}
+
+footer p:last-child {
+  padding-bottom: 20px;
+  padding-top: 0px;
 }
 
 textarea {
