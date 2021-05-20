@@ -12,11 +12,19 @@ main {
   font-size: 14px;
   line-height: 21px;
   text-align: right;
+  color:#f9855b;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #000;
+}
+
+.nav-links ul li:first-child {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color:#f9855b;
 }
 
 .emoji {
