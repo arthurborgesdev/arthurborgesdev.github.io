@@ -13,6 +13,17 @@ main {
   line-height: 21px;
   text-align: right;
   color:#f9855b;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+.nav-links ul li:first-child {
+  display: none;
+}
+
+.nav-links ul li:first-child a {
+  color:#f9855b;
+  font-weight: 700;
 }
 
 .nav-links a {
@@ -20,7 +31,7 @@ main {
   color: #000;
 }
 
-.nav-links ul li:first-child {
+.nav-links span {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 35px;
@@ -59,16 +70,11 @@ header .description {
   color: #f9855b;
   padding-left: 0px;
   padding-bottom: 47px;
+  padding-right: 15px;
 }
 
-.social-icons-header :first-child {
-  padding-left: 0px;
-  padding-right: 10px;
-}
-
-.social-icons-header :not(:first-child) {
-  padding-left: 10px;
-  padding-right: 10px;
+.social-icons-header i {
+  padding-right: 20px;
 }
 
 h2 {
@@ -132,6 +138,14 @@ h2 {
   margin-bottom: 16px;
 }
 
+.about-me p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color:#727274;
+}
+
 .about-me button {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -146,7 +160,7 @@ h2 {
   padding: 22px 18px 18px 25px;
 }
 
-.about-me h3 {
+.competences h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -155,13 +169,13 @@ h2 {
   margin-bottom: 19px;
 }
 
-.about-me .line {
+.line {
   border-bottom: 1px solid #cfd2da;
   margin-bottom: 26px;
   margin-top: 30px;
 }
 
-.about-me div span {
+.competences div span {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -190,6 +204,8 @@ input[name=name], input[name=email], textarea {
   font-size: 16px;
   line-height: 24px;
   color: #91959e;
+  border-color: #fff;
+  border-style: none;
   margin: 0 25px 15px 40px;
   padding: 15px 0 15px 20px;
   width: 80%;
@@ -233,7 +249,7 @@ footer p {
   color: #fff;
   text-align: center;
   padding-top: 20px;
-  margin: 0 23px;
+  margin: 0 23px 30px 23px;
 }
 
 footer > p {
@@ -263,3 +279,89 @@ footer p:last-child {
   margin-bottom: 0px;
 }
 
+.glyphicon {
+  font-size: 2em;
+}
+
+.container {
+  width: 90%;
+}
+
+@media (min-width: 992px) { 
+
+  main {
+    margin: 25px 40px;
+  }
+
+  header {
+    width: 55%;
+  }
+
+  .nav-links ul li:first-child {
+    display: block;
+  }
+
+  .social-networks {
+    margin-top: 90px;
+    margin-bottom: 70px;
+  }
+
+  .social-networks-title {
+    color: #727274;
+  }
+
+  .social-icons-header {
+    margin-left: 30px;
+  }
+
+  .glyphicon {
+    font-size: 1.5em;
+  }
+
+  .best-works .languages {
+    display: none;
+  }
+
+  .best-works button {
+    display: none;
+  }
+
+  .about-competences {
+    margin: 120px 0 90px 0;
+  }
+
+  .about-me {
+    margin-top: 0px;
+  }
+
+  .about-me h2 {
+    line-height: 37.91px;
+  }
+
+  .about-me p {
+    width: 65%;
+    margin: 40px 0 30px 0;
+  }
+
+  .about-me button {
+    width: 50%;
+  }
+
+  .competences div span {
+    line-height: 24px;
+  }
+
+  footer p {
+    width: auto;
+  }
+
+  input[name=name] {
+    margin-left: 40px;
+    margin-right: 5px;
+  }
+
+  input[name=email] {
+    margin-left: 0px;
+    margin-right: 70px;
+  }
+}
