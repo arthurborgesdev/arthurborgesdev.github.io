@@ -13,6 +13,8 @@ main {
   line-height: 21px;
   text-align: right;
   color:#f9855b;
+  margin-left: 35px;
+  margin-top: 15px;
 }
 
 .nav-links a {
@@ -20,7 +22,7 @@ main {
   color: #000;
 }
 
-.nav-links ul li:first-child {
+.nav-links span {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 35px;
@@ -263,3 +265,6 @@ footer p:last-child {
   margin-bottom: 0px;
 }
 
+@media (min-width: 992px) { 
+
+}
