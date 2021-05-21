@@ -307,4 +307,8 @@ footer p:last-child {
   .best-works .languages {
     display: none;
   }
+
+  .best-works button {
+    display: none;
+  }
 }
