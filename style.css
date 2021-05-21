@@ -249,7 +249,7 @@ footer p {
   color: #fff;
   text-align: center;
   padding-top: 20px;
-  margin: 0 23px;
+  margin: 0 23px 30px 23px;
 }
 
 footer > p {
@@ -349,5 +349,19 @@ footer p:last-child {
 
   .competences div span {
     line-height: 24px;
+  }
+
+  footer p {
+    width: auto;
+  }
+
+  input[name=name] {
+    margin-left: 40px;
+    margin-right: 5px;
+  }
+
+  input[name=email] {
+    margin-left: 0px;
+    margin-right: 70px;
   }
 }
