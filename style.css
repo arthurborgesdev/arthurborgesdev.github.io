@@ -17,6 +17,15 @@ main {
   margin-top: 15px;
 }
 
+.nav-links ul li:first-child {
+  display: none;
+}
+
+.nav-links ul li:first-child a {
+  color:#f9855b;
+  font-weight: 700;
+}
+
 .nav-links a {
   text-decoration: none;
   color: #000;
@@ -61,16 +70,11 @@ header .description {
   color: #f9855b;
   padding-left: 0px;
   padding-bottom: 47px;
+  padding-right: 15px;
 }
 
-.social-icons-header :first-child {
-  padding-left: 0px;
-  padding-right: 10px;
-}
-
-.social-icons-header :not(:first-child) {
-  padding-left: 10px;
-  padding-right: 10px;
+.social-icons-header i {
+  padding-right: 20px;
 }
 
 h2 {
@@ -265,6 +269,38 @@ footer p:last-child {
   margin-bottom: 0px;
 }
 
+.glyphicon {
+  font-size: 2em;
+}
+
 @media (min-width: 992px) { 
 
+  main {
+    margin: 25px 40px;
+  }
+
+  header {
+    width: 55%;
+  }
+
+  .nav-links ul li:first-child {
+    display: block;
+  }
+
+  .social-networks {
+    margin-top: 90px;
+    margin-bottom: 70px;
+  }
+
+  .social-networks-title {
+    color: #727274;
+  }
+
+  .social-icons-header {
+    margin-left: 30px;
+  }
+
+  .glyphicon {
+    font-size: 1.5em;
+  }
 }
