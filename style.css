@@ -184,6 +184,47 @@ footer h2 {
   padding-top: 46px;
 }
 
+input[name=name], input[name=email], textarea {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #91959e;
+  margin: 0 25px 15px 40px;
+  padding: 15px 0 15px 20px;
+  width: 80%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #91959e;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #91959e;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #91959e;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type=submit] {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.85px;
+  background-color: #000;
+  color: #fff;
+  margin: 0 22px 0 40px;
+  width: 80%;
+  border: 0;
+  padding: 23px 52px;
+}
+
 footer p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -193,6 +234,10 @@ footer p {
   text-align: center;
   padding-top: 20px;
   margin: 0 23px;
+}
+
+footer > p {
+  margin-bottom: 28px;
 }
 
 .social-icons-footer {
@@ -215,8 +260,6 @@ footer p {
 footer p:last-child {
   padding-bottom: 20px;
   padding-top: 0px;
+  margin-bottom: 0px;
 }
 
-textarea {
-  resize: none;
-}
