@@ -287,6 +287,26 @@ footer p:last-child {
   width: 90%;
 }
 
+.modal-img {
+  width: 100%;
+  height: auto;
+}
+
+.modal-header {
+  padding: 0;
+}
+
+.btn-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #f9855b !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  opacity: 1;
+}
+
 /* The resolution problems was of zoom in browser */
 @media (min-width: 992px) { 
 
