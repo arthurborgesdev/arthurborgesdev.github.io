@@ -307,6 +307,21 @@ footer p:last-child {
   opacity: 1;
 }
 
+.see-live-btn,
+.see-source-btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.85px;
+  background-color: #f9855b;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 35%;
+  border: 0;
+  padding: 22px 18px 18px 25px;
+}
+
 /* The resolution problems was of zoom in browser */
 @media (min-width: 992px) { 
 
