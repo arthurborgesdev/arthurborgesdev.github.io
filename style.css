@@ -307,6 +307,14 @@ footer p:last-child {
   opacity: 1;
 }
 
+.modal-body {
+  padding: 20px 100px 50px 100px;
+}
+
+.modal-body p {
+  padding-top: 20px;
+}
+
 .see-live-btn,
 .see-source-btn {
   font-family: 'Poppins', sans-serif;
