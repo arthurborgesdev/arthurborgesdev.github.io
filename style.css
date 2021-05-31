@@ -308,7 +308,7 @@ footer p:last-child {
 }
 
 .modal-body {
-  padding: 20px 100px 50px 100px;
+  padding: 20px 20px 50px 20px;
 }
 
 .modal-body p {
@@ -325,7 +325,7 @@ footer p:last-child {
   color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 35%;
+  width: 75%;
   border: 0;
   padding: 22px 18px 18px 25px;
 }
@@ -407,5 +407,9 @@ footer p:last-child {
   input[name=email] {
     margin-left: 0px;
     margin-right: 70px;
+  }
+
+  .modal-body {
+    padding: 20px 100px 50px 100px;
   }
 }
