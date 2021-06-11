@@ -328,6 +328,12 @@ footer p:last-child {
   width: 75%;
   border: 0;
   padding: 22px 18px 18px 25px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* The resolution problems was of zoom in browser */
