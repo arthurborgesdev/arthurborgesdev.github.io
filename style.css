@@ -428,8 +428,8 @@ a:hover {
   }
 
   input[name=email] {
-    margin-left: 0px;
-    margin-right: 70px;
+    margin-left: 40px;
+    margin-right: 5px;
   }
 
   .modal-body {
