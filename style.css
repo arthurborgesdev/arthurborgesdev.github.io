@@ -132,6 +132,7 @@ h2 {
 
 .about-me {
   margin-top: 56px;
+  margin-bottom: 56px;
 }
 
 .about-me h2 {
@@ -262,6 +263,22 @@ footer > p {
   margin-top: 20px;
 }
 
+.social-icon-top {
+  color: #f9855b;
+}
+
+.social-icon-top:hover {
+  color: #f9855b;
+}
+
+.social-icon-bottom {
+  color: #fff;
+}
+
+.social-icon-bottom:hover {
+  color: #fff;
+}
+
 .line-footer-container {
   margin: 0 25px;
 }
@@ -285,6 +302,56 @@ footer p:last-child {
 
 .container {
   width: 90%;
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+}
+
+.modal-header {
+  padding: 0;
+}
+
+.btn-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #f9855b !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  opacity: 1;
+}
+
+.modal-body {
+  padding: 20px 20px 50px 20px;
+}
+
+.modal-body p {
+  padding-top: 20px;
+}
+
+.see-live-btn,
+.see-source-btn,
+.see-resume-btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.85px;
+  background-color: #f9855b;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 75%;
+  border: 0;
+  padding: 22px 18px 18px 25px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* The resolution problems was of zoom in browser */
@@ -362,7 +429,11 @@ footer p:last-child {
   }
 
   input[name=email] {
-    margin-left: 0px;
-    margin-right: 70px;
+    margin-left: 40px;
+    margin-right: 5px;
+  }
+
+  .modal-body {
+    padding: 20px 100px 50px 100px;
   }
 }

@@ -35,10 +35,10 @@
       <div class="social-networks d-lg-flex">
         <p class="social-networks-title">My works in social networks</p>
         <div class="social-icons-header">
-          <i class="fab fa-github glyphicon"></i>
-          <i class="fab fa-linkedin-in glyphicon"></i>
-          <i class="fab fa-dev glyphicon"></i>
-          <i class="fab fa-twitter glyphicon"></i>
+          <a href="https://github.com/arthurborgesdev" target="_blank" class="social-icon-top"><i class="fab fa-github glyphicon"></i></a>
+          <a href="https://www.linkedin.com/in/arthurmoises/" target="_blank" class="social-icon-top"><i class="fab fa-linkedin-in glyphicon"></i></a>
+          <a href="http://dev.to/arthurborges" target="_blank" class="social-icon-top"><i class="fab fa-dev glyphicon"></i></a>
+          <a href="https://twitter.com/arthurmoises" target="_blank" class="social-icon-top"><i class="fab fa-twitter glyphicon"></i></a>
         </div>
       </div>
     </header>
@@ -47,7 +47,7 @@
     <div class="row">
       <article class="best-works n-1 col-sm-12 col-lg-6">
         <div class="img-container">
-          <a href=""><img src="./img/mockup-unidiversity.jpg" style="width:100%;"/></a>
+          <a href="#first-project" data-bs-toggle="modal"><img src="./img/mockup-unidiversity.jpg" style="width:100%;"/></a>
           <div class="top-left-title">Unidiversity</div>
         </div>
         <div class="languages">
@@ -57,69 +57,241 @@
         </div>
         <button>See the Project</button>
       </article>
+      <div id="first-project" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img class="modal-img" src="./img/mockup-unidiversity.jpg"/>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-6">
+                  <h3>Unidiversity</h3>
+                  <div class="languages">
+                    <span>HTML/CSS</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column">
+                    <div class="d-flex justify-content-end">
+                      <a href="https://arthurborgesdev.github.io/unidiversity/" target="_blank" class="see-live-btn text-center">See live <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                      <a href="https://github.com/arthurborgesdev/unidiversity" target="_blank" class="see-source-btn text-center">See Source <i class="fab fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <p>Unidiversity is a website that helps people finding the right learning resource and 
+                  the fastest one that will take they to job market. In one place you can find a curated
+                   list of universities, bootcamps and schools for you to choose. Less time searching, 
+                   more time spent studying! 
+                </p>
+                <p>
+                  This project was the final assessment of the Microverse Casptone projects for HTML5/CSS3
+                   module. It consisted of building a 3-page website based on the design files from the 
+                   client using web development technologies and best practices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <article class="best-works n-2 col-sm-12 col-lg-6">
         <div class="img-container">
-          <a href=""><img src="./img/mockup-unidiversity.jpg" style="width:100%;"/></a>
-          <div class="top-left-title">Unidiversity</div>
+          <a href="#second-project" data-bs-toggle="modal"><img src="./img/mockup-shout.jpg" style="width:100%;"/></a>
+          <div class="top-left-title">Shout</div>
         </div>
         <div class="languages">
-          <span>HTML/CSS</span>
           <span>Ruby on Rails</span>
-          <span>JavaScript</span>
+          <span>Postgres</span>
+          <span>Heroku</span>
         </div>
         <button>See the Project</button>
       </article>
+      <div id="second-project" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img class="modal-img" src="./img/mockup-shout.jpg"/>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-6">
+                  <h3>Shout</h3>
+                  <div class="languages">
+                    <span>Ruby on Rails</span>
+                    <span>Postgres</span>
+                    <span>Heroku</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column">
+                    <div class="d-flex justify-content-end">
+                      <a href="https://afternoon-falls-84906.herokuapp.com/" target="_blank" class="see-live-btn text-center">See live <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                      <a href="https://github.com/arthurborgesdev/shout/" target="_blank" class="see-source-btn text-center">See Source <i class="fab fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <p>A Twitter-like app to shout/yell your problems because when you shout, you vent, and when you vent, you relax!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
       <article class="best-works n-3 col-sm-12 col-lg-4">
         <div class="img-container">
-          <a href=""><img src="./img/mockup-unidiversity.jpg" style="width:100%;"/></a>
-          <div class="top-left-title">Unidiversity</div>
+          <a href="#third-project" data-bs-toggle="modal"><img src="./img/mockup-gamebot.jpg" style="width:100%;"/></a>
+          <div class="top-left-title">Gamebot</div>
         </div>
         <div class="languages">
-          <span>HTML/CSS</span>
-          <span>Ruby on Rails</span>
-          <span>JavaScript</span>
+          <span>Ruby</span>
+          <span>Telegram-Bot-Ruby</span>
+          <span>Heroku</span>
         </div>
         <button>See the Project</button>
       </article>
+      <div id="third-project" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img class="modal-img" src="./img/mockup-gamebot.jpg"/>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-6">
+                  <h3>Gamebot</h3>
+                  <div class="languages">
+                    <span>Ruby</span>
+                    <span>Telegram-Bot-Ruby</span>
+                    <span>Heroku</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column">
+                    <div class="d-flex justify-content-end">
+                      <a href="https://github.com/arthurborgesdev/gamebot" target="_blank" class="see-source-btn text-center">See Source <i class="fab fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <p>A Telegram bot that plays a guess game with you! (Now inactivated)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <article class="best-works n-extra col-sm-12 col-lg-4">
         <div class="img-container">
-          <a href=""><img src="./img/mockup-unidiversity.jpg" style="width:100%;"/></a>
-          <div class="top-left-title">Unidiversity</div>
+          <a href="#forth-project" data-bs-toggle="modal"><img src="./img/mockup-arbtec-curinga.jpg" style="width:100%;"/></a>
+          <div class="top-left-title">Curinga Arbtec</div>
         </div>
         <div class="languages">
-          <span>HTML/CSS</span>
-          <span>Ruby on Rails</span>
-          <span>JavaScript</span>
+          <span>C/C++</span>
+          <span>Arduino</span>
+          <span>Processing</span>
         </div>
         <button>See the Project</button>
       </article>
+      <div id="forth-project" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img class="modal-img" src="./img/mockup-arbtec-curinga.jpg"/>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-6">
+                  <h3>Curinga Arbtec</h3>
+                  <div class="languages">
+                    <span>C/C++</span>
+                    <span>Arduino</span>
+                    <span>Processing</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column">
+                    <div class="d-flex justify-content-end">
+                      <a href="https://github.com/arthurborgesdev/arbtec-curinga" target="_blank" class="see-source-btn text-center">See Source <i class="fab fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <p>This was the firmware and code files to an electronic device that identifies traffic
+                  enforcement camera tracker, that signals every time a speed camera approaches.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <article class="best-works n-4 col-sm-12 col-lg-4">
         <div class="img-container">
-          <a href=""><img src="./img/mockup-unidiversity.jpg" style="width:100%;"/></a>
-          <div class="top-left-title">Unidiversity</div>
+          <a href="#fifth-project" data-bs-toggle="modal"><img src="./img/mockup-colete-matchvision.jpg" style="width:100%;"/></a>
+          <div class="top-left-title">Colete Matchvision</div>
         </div>
         <div class="languages">
-          <span>HTML/CSS</span>
-          <span>Ruby on Rails</span>
-          <span>JavaScript</span>
+          <span>C/C++</span>
+          <span>ESP8266</span>
+          <span>HTML/CSS/JavaScript</span>
         </div>
         <button>See the Project</button>
       </article>
+      <div id="fifth-project" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img class="modal-img" src="./img/mockup-colete-matchvision.jpg"/>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-6">
+                  <h3>Colete Matchvision</h3>
+                  <div class="languages">
+                    <span>C/C++</span>
+                    <span>ESP8266</span>
+                    <span>HTML/CSS/JavaScript</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex flex-column">
+                    <div class="d-flex justify-content-end">
+                      <a href="https://github.com/arthurborgesdev/colete-matchvision" target="_blank" class="see-source-btn text-center">See Source <i class="fab fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <p>Firmware for an electronic vest to be used by soccer players to improve 
+                  their playing skills and optical skills. Built with ESP8266, Arduino, and C/C++.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row about-competences">
-      <section class="about-me col-sm-12 col-lg-6">
+      <section class="about-me col-lg-6">
         <h2>About me</h2>
         <p>I'm in love with many technologies, ranging from hardware to web apps. And I enjoy very much
           working with people that take teamwork seriously. I believe that 1% of 100 people deliver the whole.
         </p>
-        <button>Get my resume</button>
+        <br>
+        <a href="https://docs.google.com/document/d/1iq-bvQXf9sUOF-SYLoKbXJab1cyYbyo5iAvp0EQLkZY/edit?usp=sharing" target="_blank" class="see-resume-btn">Get my resume</a>
       </section>
-      <section class="competences col-sm-12 col-lg-6">
+      <section class="competences col-lg-6">
         <h3>Languages</h3>
         <div>
           <span>JavaScript (ES5/ES6)</span>
+          <span>C/C++</span>
           <span>Ruby</span>
           <span>HTML</span>
           <span>CSS</span>
@@ -132,16 +304,16 @@
           <span>RSpec</span>
           <span>Capybara</span>
           <span>Selenium</span>
+          <span>Arduino</span>
         </div>
         <div class="line"></div>
         <h3>Skills</h3>
         <div>
           <span>Bootstrap</span>
           <span>Bulma</span>
-          <span>Codekit</span>
-          <span>Codepen</span>
           <span>Github</span>
-          <span>Gitlab</span>
+          <span>Linux</span>
+          <span>Heroku</span>
           <span>Terminal</span>
         </div>
       </section>
@@ -155,25 +327,23 @@
         developing, a feature that you need built or a 
         project that need coding, I'd love to help you with it.
       </p>
-      <form>
-        <div class="d-lg-flex">
-          <input type="text" name="name" placeholder="Full name*">
-          <input type="email" name="email" placeholder="Email*">
-        </div>
-        <textarea name="comment" rows="10">Message*</textarea>
+      <form id="emailForm">
+        <input type="text" name="name" placeholder="Full name*">
+        <input type="email" name="email" placeholder="Email*">
+        <textarea name="message" rows="10">Message*</textarea>
         <input type="submit" value="Get in touch">
       </form>
       <p>arthurborges.dev@gmail.com</p>
       <div class="social-icons-footer d-flex justify-content-evenly">
-        <i class="fab fa-github fa-2x"></i>
-        <i class="fab fa-linkedin-in fa-2x"></i>
-        <i class="fab fa-dev fa-2x"></i>
-        <i class="fab fa-twitter fa-2x"></i>
+        <a href="https://github.com/arthurborgesdev" target="_blank" class="social-icon-bottom"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/arthurmoises/" target="_blank" class="social-icon-bottom"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="http://dev.to/arthurborges" target="_blank" class="social-icon-bottom"><i class="fab fa-dev fa-2x"></i></a>
+        <a href="https://twitter.com/arthurmoises" target="_blank" class="social-icon-bottom"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
       <div class="line-footer-container">
         <div class="line-footer"></div>
       </div>
-      <p>© 2021 Developed by Arthur Borges <br> Design by Microverse</p>
+      <p>© 2021 Developed by Arthur Borges <br> Design by Microverse <br> Photos by Lisa Wall and Denny Müller on Unsplash <br>Mockups by magicmockups.com</p>
     </div>
     <div class="col-sm-12 col-lg-3"></div>
   </footer>
@@ -182,5 +352,17 @@
           crossorigin="anonymous">
   </script>
   <script src="https://kit.fontawesome.com/382832813c.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      emailjs.init("user_Hqjg6CGWG7bozRdUpnZDd");
+    })();
+  </script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+  </script>
+  <script src="./script.js"></script>
 </body>
 </html>
