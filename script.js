@@ -6,9 +6,9 @@ $('#emailForm').on('submit', function(event) {
   formData.append('template_id', 'template_819k8xq');
   formData.append('user_id', 'user_Hqjg6CGWG7bozRdUpnZDd');
   formData.append('to_name', 'Arthur Borges');
-  formData.append('from_name', $("#emailForm :input[name='name']"));
-  formData.append('from_email', $("#emailForm :input[name='email']"));
-  formData.append('message', $("#emailForm :input[name='message']"));
+  formData.append('from_name', $("#emailForm :input[name='name']").val());
+  formData.append('from_email', $("#emailForm :input[name='email']").val());
+  formData.append('message', $("#emailForm :input[name='message']").val());
 
   $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
       type: 'POST',
