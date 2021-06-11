@@ -1,7 +1,42 @@
-# portfolio
-Software Development Personal Portfolio
-  Photo by Denny Müller
-  
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-  Photo by Lisa Wall</a> o
-  
+# Portfolio
+
+> My personal portfolio, did as a Microverse project
+
+![portfolio-screenshot](./img/portfolio-screenshot.jpg)
+
+
+## Built With
+
+- Figma
+- Git
+- Github
+- VSCode
+- Pinta
+- HTML/CSS
+- Bootstrap
+
+## Live Demo
+
+[Live Demo Link](https://livedemo.com)
+
+
+## Author
+
+👤 **Arthur Borges**
+
+- GitHub: [@arthurborgesdev](https://github.com/arthurborgesdev)
+- Twitter: [@twitterhandle](https://twitter.com/arthurmoises)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/arthurmoises)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Photo by Denny Müller
+- Photo by Lisa Wall
+- Mockups by magicmockups.com
+- Microverse Design
