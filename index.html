@@ -279,14 +279,15 @@
       </div>
     </div>
     <div class="row about-competences">
-      <section class="about-me col-sm-12 col-lg-6">
+      <section class="about-me col-lg-6">
         <h2>About me</h2>
         <p>I'm in love with many technologies, ranging from hardware to web apps. And I enjoy very much
           working with people that take teamwork seriously. I believe that 1% of 100 people deliver the whole.
         </p>
+        <br>
         <a href="https://docs.google.com/document/d/1iq-bvQXf9sUOF-SYLoKbXJab1cyYbyo5iAvp0EQLkZY/edit?usp=sharing" target="_blank" class="see-resume-btn">Get my resume</a>
       </section>
-      <section class="competences col-sm-12 col-lg-6">
+      <section class="competences col-lg-6">
         <h3>Languages</h3>
         <div>
           <span>JavaScript (ES5/ES6)</span>
@@ -326,7 +327,7 @@
         developing, a feature that you need built or a 
         project that need coding, I'd love to help you with it.
       </p>
-      <form>
+      <form id="emailForm">
         <input type="text" name="name" placeholder="Full name*">
         <input type="email" name="email" placeholder="Email*">
         <textarea name="comment" rows="10">Message*</textarea>
@@ -351,5 +352,17 @@
           crossorigin="anonymous">
   </script>
   <script src="https://kit.fontawesome.com/382832813c.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      emailjs.init("user_Hqjg6CGWG7bozRdUpnZDd");
+    })();
+  </script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+  </script>
+  <script src="./script.js"></script>
 </body>
 </html>

@@ -132,6 +132,7 @@ h2 {
 
 .about-me {
   margin-top: 56px;
+  margin-bottom: 56px;
 }
 
 .about-me h2 {
@@ -262,6 +263,14 @@ footer > p {
   margin-top: 20px;
 }
 
+.social-icon-top {
+  color: #f9855b;
+}
+
+.social-icon-top:hover {
+  color: #f9855b;
+}
+
 .social-icon-bottom {
   color: #fff;
 }
@@ -371,14 +380,6 @@ a:hover {
 
   .social-icons-header {
     margin-left: 30px;
-  }
-
-  .social-icon-top {
-    color: #f9855b;
-  }
-
-  .social-icon-top:hover {
-    color: #f9855b;
   }
 
   .glyphicon {
