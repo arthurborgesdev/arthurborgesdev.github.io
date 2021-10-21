@@ -27,7 +27,7 @@
 👤 **Arthur Borges**
 
 - GitHub: [@arthurborgesdev](https://github.com/arthurborgesdev)
-- Twitter: [@twitterhandle](https://twitter.com/arthurmoises)
+- Twitter: [@arthurmoises](https://twitter.com/arthurmoises)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/arthurmoises)
 
 ## Show your support
