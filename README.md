@@ -2,9 +2,9 @@
 
 # Portfolio
 
-> My personal portfolio, did as a Microverse project
+> My personal portfolio, showcasing personal and Microverse course projects
 
-![portfolio-screenshot](./img/portfolio-screenshot.jpg)
+![portfolio-screenshot](./img/portfolio-screenshot.png)
 
 
 ## Built With
@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://arthurborges.dev/)
 
 
 ## Author
